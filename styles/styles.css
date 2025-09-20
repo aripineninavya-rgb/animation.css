@@ -1,19 +1,15 @@
 
    
 
-body{
-    
+body{   
     width: 100%;
-    background-color: #F1BBDF;
-    
+    background-color: #F1BBDF;   
 }
 
 
-.snowwhite{
-     
+.snowwhite{  
     width: 550px;
-    height: 700px;
-    
+    height: 700px;   
 }
 
 
@@ -46,9 +42,6 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
-    
-
 }
 
 
