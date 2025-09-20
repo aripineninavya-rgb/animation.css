@@ -2,55 +2,48 @@
    
 
 body{
-     background-color: #F1BBDF;
+    
+    width: 100%;
+    background-color: #F1BBDF;
     
 }
 
 
 .snowwhite{
      
-      width: 550px;
-      height: 600px;
-   
-
+    width: 550px;
+    height: 700px;
+    
 }
 
 
 .images{
     object-fit: cover;
-     animation: imgzoom 4.5s ease infinite;
-
+    animation: imgzoom 4.5s ease infinite;
     position: absolute;
     top: 20px;
     width: 150px;
-
-
-   
 }
 
 
 
 .fram{
-     object-fit: cover;
-     animation: imgzoom 4.5s ease infinite;
+    object-fit: cover;
+    animation: imgzoom 4.5s ease infinite;
     width: 200px;
-   background-image: url(../images/toran.svg); 
-    
+    background-image: url(../images/toran.svg); 
 }
 
 
 
 .invitation{
     font-family: "Bevan", serif;
-    
     display: flex;
     justify-content: space-around;
-    align-items: center;
-   
-     background-position: center;
-     background-image: url(../images/decoration\ 1.svg);
-   
-     background-repeat: no-repeat;
+    align-items: center; 
+    background-position: center;
+    background-image: url(../images/decoration\ 1.svg);
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 
@@ -63,6 +56,11 @@ body{
 @keyframes imgzoom{
     from {transform: scale(1) rotate(0deg);}
     to {transform: scale(1.2) rotate(20deg);}
+}
+
+.text{
+    color: #7360A1;
+    justify-items: center;
 }
 
 
